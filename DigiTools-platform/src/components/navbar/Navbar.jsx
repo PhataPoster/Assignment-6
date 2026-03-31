@@ -20,7 +20,7 @@ const Navbar = ({ buyProducts }) => {
                 </div>
 
                 <div className="flex">
-                    <a className="btn btn-ghost text-3xl "><span className='bg-clip-text text-transparent bg-linear-to-r from-blue-700 to-purple-700'>DigiTools</span></a>
+                    <a className="btn btn-ghost text-4xl "><span className='bg-clip-text text-transparent bg-linear-to-r from-blue-700 to-purple-700 font-bold'>DigiTools</span></a>
                 </div>
 
                 <div className="navbar-center hidden lg:flex">
