@@ -6,6 +6,8 @@ import Tools from './components/homepage/tools/Tools'
 import Navbar from './components/navbar/Navbar'
 import GetStart from './components/homepage/getStart/GetStart'
 import Plans from './components/homepage/plans/Plans'
+import Ready from './components/homepage/ready/Ready'
+import Footer from './components/footer/Footer'
 
 const fetchData = async () => {
   const res = await fetch("/data.json")
@@ -34,6 +36,8 @@ function App() {
       <Suspense fallback={<span className="loading loading-dots loading-xl"></span>}>
         <Plans plansDataPromise={plansDataPromise}></Plans>
       </Suspense>
+      <Ready></Ready>
+      <Footer></Footer>
 
     </>
   )
