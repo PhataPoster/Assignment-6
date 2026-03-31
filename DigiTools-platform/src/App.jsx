@@ -1,4 +1,4 @@
-import { Suspense, useState } from 'react'
+import { Suspense, useMemo, useState } from 'react'
 import './App.css'
 import Activity from './components/homepage/Activity'
 import Banner from './components/homepage/banner/banner'
@@ -19,8 +19,8 @@ const fetchPlansData = async () => {
 }
 
 function App() {
-  const dataPromise = fetchData()
-  const plansDataPromise = fetchPlansData();
+  const dataPromise = useMemo(() => fetchData(), [])
+  const plansDataPromise = useMemo(() => fetchPlansData(), [])
   const [buyProducts, setBuyProducts] = useState([])
   // const [productCount,setProductCount] = useState(0)
 

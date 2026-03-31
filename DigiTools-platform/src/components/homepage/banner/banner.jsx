@@ -28,8 +28,8 @@ const Banner = () => {
                     </button>
                 </div>
             </div>
-            <div>
-                <img src={banner} alt="" />
+            <div className='shadow-lg rounded-2xl'>
+                <img className='shadow-2xl ' src={banner} alt="" />
             </div>
         </div>
     );

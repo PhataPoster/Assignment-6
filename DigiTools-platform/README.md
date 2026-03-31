@@ -1,16 +1,30 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern digital tools marketplace UI where users can explore premium products, add items to cart, and review pricing plans in a clean and responsive experience.
 
-Currently, two official plugins are available:
+## Technology Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19
+- Vite 8
+- Tailwind CSS 4
+- DaisyUI 5
+- React Toastify
+- Font Awesome
 
-## React Compiler
+## Top 3 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1. Product Browsing and Smart Cart Interaction
+Browse digital products with pricing and feature details, then add items to cart with instant UI feedback and toast notifications.
 
-## Expanding the ESLint configuration
+2. Dynamic Pricing Plans Section
+View multiple subscription tiers with highlighted plans, clear benefit lists, and action-focused cards.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Fully Responsive Landing Experience
+Includes reusable sections (navbar, banner, tools, plans, footer) optimized for mobile, tablet, and desktop layouts.
+
+## Run Locally
+
+```bash
+npm install
+npm run dev
+```

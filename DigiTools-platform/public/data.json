@@ -10,7 +10,7 @@
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "../src/assets/products/design-tool.png",
+    "icon": "/products/design-tool.png",
     "button": { "text": "Buy Now", "link": "/buy/ai-writing-pro" }
   },
   {
@@ -24,7 +24,7 @@
       "Monthly updates",
       "Commercial license"
     ],
-    "icon": "../src/assets/products/operation.png",
+    "icon": "/products/operation.png",
     "button": { "text": "Buy Now", "link": "/buy/design-pack" }
   },
   {
@@ -38,7 +38,7 @@
       "Commercial use",
       "No attribution"
     ],
-    "icon": "../src/assets/products/portfolio.png",
+    "icon": "/products/portfolio.png",
     "button": { "text": "Buy Now", "link": "/buy/stock-assets" }
   },
   {
@@ -52,7 +52,7 @@
       "API access",
       "Custom workflows"
     ],
-    "icon": "../src/assets/products/social-media.png",
+    "icon": "/products/social-media.png",
     "button": { "text": "Buy Now", "link": "/buy/automation-toolkit" }
   },
   {
@@ -66,7 +66,7 @@
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "../src/assets/products/writing_2327400 1.png",
+    "icon": "/products/writing_2327400 1.png",
     "button": { "text": "Buy Now", "link": "/buy/resume-builder" }
   },
   {
@@ -80,7 +80,7 @@
       "Scheduler included",
       "Analytics dashboard"
     ],
-    "icon": "../src/assets/products/social-media.png",
+    "icon": "/products/social-media.png",
     "button": { "text": "Buy Now", "link": "/buy/social-kit" }
   },
   {
@@ -94,7 +94,7 @@
       "100+ effects",
       "Fast rendering"
     ],
-    "icon": "../src/assets/products/Video Edit.png",
+    "icon": "/products/Video Edit.png",
     "button": { "text": "Buy Now", "link": "/buy/video-suite" }
   },
   {
@@ -108,7 +108,7 @@
       "Payment integration",
       "Inventory management"
     ],
-    "icon": "../src/assets/products/eccomerce.png",
+    "icon": "/products/eccomerce.png",
     "button": { "text": "Buy Now", "link": "/buy/ecommerce-kit" }
   },
   {
@@ -122,7 +122,7 @@
       "Site audit",
       "Competitor analysis"
     ],
-    "icon": "../src/assets/products/Seo Tag.png",
+    "icon": "/products/Seo Tag.png",
     "button": { "text": "Buy Now", "link": "/buy/seo-tool" }
   }
 ]
