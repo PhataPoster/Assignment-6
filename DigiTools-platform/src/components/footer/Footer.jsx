@@ -7,8 +7,8 @@ import Instagram from '../../assets/products/instagram.png'
 
 const Footer = () => {
     return (
-        <div className='bg-[#101727] lg:px-50 pt-30 pb-8 text-white'>
-            <div className='flex justify-between gap-6 pb-20'>
+        <div className='bg-[#101727] lg:px-50 pt-30 pb-8 px-2 text-white'>
+            <div className='flex flex-col lg:flex-row lg:justify-between justify-center items-center gap-6 pb-20 text-center lg:text-left'>
                 <div className=''>
                     <h1 className='text-4xl font-bold mb-4'>DigiTools</h1>
                     <p className='text-sm'>Premium digital tools for creators, <br /> professionals, and businesses. Work smarter <br /> with our suite of powerful tools.</p>
@@ -52,7 +52,7 @@ const Footer = () => {
 
                 </div>
             </div>
-            <div className='pt-8 border-t border-gray-500 flex justify-between'>
+            <div className='pt-8 border-t border-gray-500 flex flex-col lg:flex-row lg:justify-between justify-center items-center gap-4'>
                 <div>
                     <p className='text-sm text-gray-400'>© 2026 Digitools. All rights reserved.</p>
                 </div>
