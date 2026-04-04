@@ -4,7 +4,7 @@ import play from "../../../assets/play.png";
 import banner from "../../../assets/banner.png";
 const Banner = () => {
     return (
-        <div className='flex flex-col-reverse px-2 gap-8 mt-15 mb-15 lg:flex-row lg:gap-20 lg:px-50'>
+        <div className='flex flex-col-reverse justify-center items-center px-2 gap-8 mt-15 mb-15 lg:flex-row lg:gap-20 lg:px-50 lg:justify-start lg:items-start'>
             <div className='flex flex-col gap-4 justify-center items-center lg:items-start text-center lg:text-start' >
                 <div className='flex gap-2 bg-blue-100 rounded-full px-4 py-2 w-fit'>
                     <img src={circle} alt="circle logo" />
